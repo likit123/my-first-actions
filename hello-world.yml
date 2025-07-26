@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: check out repository
         uses: actions/checkout@v4
-        
+
       - name: say hello
-        run: echo "Hello World"
+        run: echo "Hello World github action from ${{github.repository}}"
 
